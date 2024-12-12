@@ -35,6 +35,7 @@ function ContactForm() {
 
     try {
       setIsLoading(true);
+      console.log(`${process.env.NEXT_PUBLIC_APP_URL}/api/contact`)
       const res = await axios.post(
         `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
         userInput
