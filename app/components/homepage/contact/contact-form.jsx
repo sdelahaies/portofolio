@@ -33,12 +33,19 @@ function ContactForm() {
       setError({ ...error, required: false });
     };
 
+    let axiosConfig = {
+      headers: {
+          'Content-Type': 'application/json;charset=UTF-8',
+          "Access-Control-Allow-Origin": "*",
+      }
+    };
+
     try {
       setIsLoading(true);
       console.log(`${process.env.NEXT_PUBLIC_APP_URL}/api/contact`)
       const res = await axios.post(
         `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
-        userInput
+        userInput, axiosConfig
       );
 
       toast.success("Message sent successfully!");
