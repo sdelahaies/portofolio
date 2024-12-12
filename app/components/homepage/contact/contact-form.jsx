@@ -42,11 +42,13 @@ function ContactForm() {
 
     try {
       setIsLoading(true);
-      console.log(`${process.env.NEXT_PUBLIC_APP_URL}/api/contact`)
+      console.log(`${process.env.NEXT_PUBLIC_APP_URL}/api/contact`);
       const res = await axios.post(
         `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
         userInput, axiosConfig
       );
+
+      console.log(res);
 
       toast.success("Message sent successfully!");
       setUserInput({
