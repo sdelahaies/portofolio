@@ -233,13 +233,13 @@ function HeroSection() {
               </div>
               <div>
                 <span className="ml-8 lg:ml-16 text-orange-400">return</span>
-                <span className="text-cyan-400"> f"I m &#123;self.name&#125;," + \</span>
+                <span className="text-cyan-400"> f&quot;I m &#123;self.name&#125;,&quot; + \</span>
               </div>
               <div>
-                <span className="ml-20 text-cyan-400"> f"proficient in &#123;self.skills[:n]&#125; and more" + \ </span>
+                <span className="ml-20 text-cyan-400"> f&quot;proficient in &#123;self.skills[:n]&#125; and more&quot; + \ </span>
               </div>
               <div>
-                <span className="ml-20 text-cyan-400"> "and looking for opportunities!" </span>
+                <span className="ml-20 text-cyan-400"> &quot;and looking for opportunities!&quot; </span>
               </div>
               <br></br>   
               <div>
@@ -251,7 +251,7 @@ function HeroSection() {
               <div>
                 <span className="text-orange-400">print</span>
                 <span className="text-gray-400">(</span>
-                <span className="text-amber-300">"summary:"</span>
+                <span className="text-amber-300">&quot;summary:&quot;</span>
                 <span className="text-gray-400">,</span>
                 <span className="text-cyan-400">sylvain.summary</span>
                 <span className="text-gray-400">())</span>
