@@ -39,15 +39,18 @@ function ContactForm() {
           "Access-Control-Allow-Origin": "*",
       }
     };
-
+    console.log("whatthefuck!")
     try {
       setIsLoading(true);
+      console.log("whatthefuck!")
+      console.log(userInput)
       console.log(`${process.env.NEXT_PUBLIC_APP_URL}/api/contact`);
       const res = await axios.post(
         `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
-        userInput, axiosConfig
+        userInput,
+        axiosConfig
       );
-
+      console.log("whatthefuck!")
       console.log(res);
 
       toast.success("Message sent successfully!");
