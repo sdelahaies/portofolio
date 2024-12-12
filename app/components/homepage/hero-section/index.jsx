@@ -156,30 +156,30 @@ function HeroSection() {
                 <span className="ml-8 lg:ml-16 text-cyan-400">self.skills</span>
                 <span className="mr-2 text-pink-500"> =</span>
                 <span className="text-gray-400">[</span>
-                <span className="text-amber-300">"Python"</span>
+                <span className="text-amber-300">&quot;Python&quot;</span>
                 <span className="text-gray-400">, </span>
-                <span className="text-amber-300">"Transformers"</span>
+                <span className="text-amber-300">&quot;Transformers&quot;</span>
                 <span className="text-gray-400">, </span>
-                <span className="text-amber-300">"Fastapi"</span>
+                <span className="text-amber-300">&quot;Fastapi&quot;</span>
                 <span className="text-gray-400">, </span>
               </div>
               <div>
-                <span className="ml-20 text-amber-300">"Scikit-learn"</span>
+                <span className="ml-20 text-amber-300">&quot;Scikit-learn&quot;</span>
                 <span className="text-gray-400">, </span>
-                <span className="text-amber-300">"Docker"</span>
+                <span className="text-amber-300">&quot;Docker&quot;</span>
                 <span className="text-gray-400">, </span>
-                <span className="text-amber-300">"Airflow"</span>
+                <span className="text-amber-300">&quot;Airflow&quot;</span>
                 <span className="text-gray-400">, </span>
-                <span className="text-amber-300">"AWS"</span>
+                <span className="text-amber-300">&quot;AWS&quot;</span>
                 <span className="text-gray-400">, </span>
-                <span className="text-amber-300">"Git"</span>
+                <span className="text-amber-300">&quot;Git&quot;</span>
                 <span className="text-gray-400">, </span>
               </div>
               <div>
 
-                <span className="ml-20 text-amber-300">"Linux"</span>
+                <span className="ml-20 text-amber-300">&quot;Linux&quot;</span>
                 <span className="text-gray-400">, </span>
-                <span className="text-amber-300">"MySQL"</span>
+                <span className="text-amber-300">&quot;MySQL&quot;</span>
                 <span className="text-gray-400">, ...]</span>
               </div>
               <div>
