@@ -18,14 +18,14 @@ export const researchData = [
         url: "/#research",
         title: 'Image satellite et dégradation forestière',
         description: "Etude préliminaire portant sur la production d'outils d'analyse de la dégradation forestière à l'aide de techniques d'assimilation de données à l'aide  d'imagerie satellite très haute résolution.",
-        image: forest,
+        image: ndvi,
     },
     {
         id: 3,
         url: "/#research",
         title: "Quantification du cycle du carbone pour les écosystèmes terrestres",
         description: "Développement d'outils variationnels pour l'étude du contenu en information de flux d'observations pour le cycle du carbone.",
-        image: ndvi,
+        image: forest,
     },
 ];
 
