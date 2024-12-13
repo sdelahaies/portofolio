@@ -9,7 +9,7 @@ export const personalData = {
   github: 'https://github.com/sdelahaies',
   facebook: '',
   linkedIn: 'https://www.linkedin.com/in/sylvaindelahaies/',
-  huggingface: 'https://huggingface.co/sdelahaies',
+  huggingface: 'https://huggingface.co/delahaies471',
   researchgate: 'https://www.researchgate.net/profile/Sylvain-Delahaies-2',
   twitter: 'https://twitter.com/said7388',
   stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
