@@ -11,13 +11,16 @@ function BlogCard({ blog }) {
     <div className="border border-[#1d293a] hover:border-[#464c6a] transition-all duration-500 bg-[#1b203e] rounded-lg relative group"
     >
       <div className="w-auto cursor-pointer overflow-hidden rounded-t-lg">
+        <a href={blog.url}>
         <Image
           src={blog?.image}
           height={1080}
           width={1920}
           alt=""
           className='h-400 w-full group-hover:scale-110 transition-all duration-300'
+          href={blog.url}
         />
+        </a>
       </div>
       <div className="p-2 sm:p-3 flex flex-col">
         {/* <div className="flex justify-between items-center text-[#16f2b3] text-sm">
