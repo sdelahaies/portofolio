@@ -15,5 +15,5 @@ export const personalData = {
   stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said', // keep it for now to make sure to not break any essential process before cleaning
   leetcode: "https://leetcode.com/said3812/", // keep it for now to make sure to not break any essential process before cleaning
   devUsername: "said7388",                    // keep it for now to make sure to not break any essential process before cleaning
-  resume: "https://drive.google.com/file/d/1BUIBuoA99K67Msq3bwpuNONgSmvsjV34/view?usp=sharing"
+  resume: " https://drive.google.com/file/d/1UNEy6jji2kTi2U92a3fK5Qb316ssCMP9/view?usp=sharing"
 }
