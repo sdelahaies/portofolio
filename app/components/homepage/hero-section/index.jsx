@@ -15,6 +15,11 @@ import ResearchGate from "@/public/svg/researchgate.svg";
 import { CiMail } from "react-icons/ci";
 
 function HeroSection() {
+
+  // const raw = new Uint8ClampedArray(5000*5000*4); // 4 for RBGA
+  // const imageData = new ImageData(raw, 5000,5000);
+  // const bitmap = createImageBitmap();
+
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <Image
