@@ -106,7 +106,7 @@ import wandb from '/public/svg/skills/wandb.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
-
+import supabase from '/public/svg/skills/supabase.svg';
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -326,7 +326,9 @@ export const skillsImage = (skill) => {
     case 'neo4j':
       return neo4j;       
     case 'ubuntu':
-        return ubuntu; 
+        return ubuntu;
+    case 'supabase':
+        return supabase;  
     default:
       break;
   }
